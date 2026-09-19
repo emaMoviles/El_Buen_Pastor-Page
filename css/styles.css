@@ -48,7 +48,7 @@ nav {
             rgba(0, 0, 0, 0.55),
             rgba(0, 0, 0, 0.55)
         ),
-        url("img/BP_section1.jpg");
+        url("../img/BP_section1.jpg");
 
     background-size: cover;
     background-position: center;
