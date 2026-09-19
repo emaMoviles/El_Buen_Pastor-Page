@@ -75,7 +75,7 @@ nav {
 .hero-contenido {
     position: relative;
     z-index: 2;
-
+    width: 100%;
     max-width: 700px;
     padding: 20px;
 
@@ -233,10 +233,6 @@ nav {
 
 @media (max-width: 768px) {
 
-    .lista-servicios {
-        flex-direction: column;
-    }
-
     .hero {
         min-height: 500px;
         padding: 20px;
@@ -252,4 +248,7 @@ nav {
         font-size: 18px;
     }
 
+    .lista-servicios {
+        flex-direction: column;
+    }
 }
