@@ -51,7 +51,7 @@ nav {
         url("./img/BP_section1.jpg");
 
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     
     display: flex;
     align-items: center;
