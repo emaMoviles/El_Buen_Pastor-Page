@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #14213d;
+    padding: 20px 40px;
+}
+
+nav {
+    background-color: #14213d;
+    color: white;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #494742;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+.hero {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("/images/BP_section1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.hero-contenido {
+    max-width: 700px;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #14213d;
+    color: white;
+
+    border: none;
+    padding: 14px 30px;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.nosotros {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.nosotros h2 {
+    font-size: 40px;
+    color: #14213d;
+    margin-bottom: 25px;
+}
+
+.nosotros p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.servicios {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #f4f6f8;
+}
+
+.servicios h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #14213d;
+}
+
+.lista-servicios {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+    display: flex;
+    gap: 25px;
+}
+
+.evento {
+    flex: 1;
+    color: #14213d;
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.3s ease;
+}
+
+.evento:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+
+    .lista-servicios {
+        flex-direction: column;
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+}
+.contacto {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.contacto h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #14213d;
+    margin-bottom: 50px;
+}
+
+.contacto h3 {
+    color: #14213d;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    color: #555;
+    line-height: 1.7;
+}
+
+.contacto .form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.contacto .btn {
+    background-color: #d4a017;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+}
+
+.contacto .btn:hover {
+    background-color: #b8860b;
+}
+
+.contacto .form-control:focus {
+    border-color: #d4a017;
+    box-shadow: 0 0 0 0.2rem rgba(212, 160, 23, 0.2);
+}
+
+.footer {
+    background-color: #14213d;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer h3,
+.footer h4 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #d0d5dc;
+    line-height: 1.6;
+}
+
+.footer a {
+    display: block;
+    color: #d0d5dc;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #d4a017;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+    margin: 35px 0 20px;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
