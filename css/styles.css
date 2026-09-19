@@ -51,12 +51,11 @@ nav {
         url("./img/BP_section1.jpg");
 
     background-size: cover;
-    background-position: center;
-
+    background-position: center center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
@@ -141,6 +140,10 @@ nav {
     .hero {
         min-height: 500px;
         padding: 20px;
+
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .hero h2 {
